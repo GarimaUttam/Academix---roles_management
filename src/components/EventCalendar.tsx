@@ -11,21 +11,21 @@ const events = [
     title: "End semester examinations",
     time: "12:00 PM - 2:00 PM",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis et exercitationem accusamus.",
+      "Lorem ipsum, dolor sit amet consectetur.",
   },
   {
     id: 2,
     title: "Foundations day celebration",
     time: "2:00 PM - 4:00 PM",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis et exercitationem accusamus.",
+      "Lorem ipsum, dolor sit amet consectetur.",
   },
   {
     id: 3,
     title: "College Dean's speech",
     time: "04:00 PM - 05:00 PM",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis et exercitationem accusamus.",
+      "Lorem ipsum, dolor sit amet consectetur",
   },
 ];
 
