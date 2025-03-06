@@ -14,7 +14,7 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       colors: {
-        lamasky: "#c3ebfa",
+        lamaSky: "#c3ebfa",
         lamaSkyLight: "#edf9fd",
         lamaPurple: "#cfceff",
         lamaPurpleLight: "#f1f0ff",
