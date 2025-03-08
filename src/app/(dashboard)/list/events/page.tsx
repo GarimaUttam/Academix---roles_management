@@ -57,14 +57,14 @@ const columns = [
         {new Intl.DateTimeFormat("en-US").format(item.startTime)}
       </td>
       <td className="hidden md:table-cell">
-        {item.startTime.toLocaleDateString("en-US", {
+        {item.startTime.toLocaleTimeString("en-US", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: false,
         })}
       </td>
       <td className="hidden md:table-cell">
-        {item.endTime.toLocaleDateString("en-US", {
+        {item.endTime.toLocaleTimeString("en-US", {
           hour: "2-digit",
           minute: "2-digit",
           hour12: false,
