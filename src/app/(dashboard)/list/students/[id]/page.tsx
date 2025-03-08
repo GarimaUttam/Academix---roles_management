@@ -28,7 +28,6 @@ const SingleStudentPage = () => {
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              {/* <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-2 text-xs font-medium"> */}
               <div className="flex-1 flex gap-2 md:grid-cols-2 2xl:grid-cols-2 justify-between flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-1 ">
                   <Image src="/blood.png" alt="" width={14} height={14} />
@@ -121,7 +120,7 @@ const SingleStudentPage = () => {
         <div className="bg-white p-4 rounded-md">
           <h1 className="text-xl font-semibold">Shortcuts</h1>
           <div className="mt-4 flex gap-4 flex-wrap text-xs text-gray-500">
-            <Link href="/" className="p-3 rounded-md bg-pink-50">
+            <Link href={`/list/lessons?classId=${2}`} className="p-3 rounded-md bg-pink-50">
               Student&apos;s Lectures
             </Link>
             <Link href="/list/teachers?classId=${2}" className="p-3 rounded-md bg-lamaSkyLight">

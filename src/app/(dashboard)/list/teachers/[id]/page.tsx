@@ -49,7 +49,6 @@ const SingleTeacherPage = () => {
               <p className="text-sm text-gray-500">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
               </p>
-              {/* <div className="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-2 gap-2 text-xs font-medium"> */}
               <div className="flex-1 flex gap-2 md:grid-cols-2 2xl:grid-cols-2 justify-between flex-wrap text-xs font-medium">
                 <div className="w-full md:w-1/3 lg:w-full 2xl:w-1/3 flex items-center gap-1 ">
                   <Image src="/blood.png" alt="" width={14} height={14} />
@@ -148,13 +147,13 @@ const SingleTeacherPage = () => {
             <Link href={`/list/students?teacherId=${"teacher2"}`} className="p-3 rounded-md bg-lamaPurpleLight">
               Teacher&apos;s Exams
             </Link>
-            <Link href="/" className="p-3 rounded-md bg-lamaYellowLight">
+            <Link href={`/list/classes?supervisorId=${"teacher2"}`} className="p-3 rounded-md bg-lamaYellowLight">
               Teacher&apos;s Classes
             </Link>
             <Link href="/" className="p-3 rounded-md bg-emerald-50">
               Teacher&apos;s Assignments
             </Link>
-            <Link href="/" className="p-3 rounded-md bg-pink-50">
+            <Link href={`/list/lessons?teacherId=${"teacher2"}`} className="p-3 rounded-md bg-pink-50">
               Teacher&apos;s Lessons
             </Link>
           </div>

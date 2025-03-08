@@ -104,7 +104,7 @@ const TeacherListPage = async ({
   // URL PARAMS conditons
   if (queryParams) {
     for (const [key, value] of Object.entries(queryParams)) {
-      if (value != undefined) {
+      if (value !== undefined) {
         switch (key) {
           case "classId":
             query.lessons = {
