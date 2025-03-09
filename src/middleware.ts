@@ -15,6 +15,7 @@ export default clerkMiddleware(async (auth, req) => {
   // if (isProtectedRoute(req)) await auth.protect()
   
   const { sessionClaims } = await auth();
+  // const url = req.nextUrl;
   
   const role = (sessionClaims?.metadata as { role?: string })?.role;
 
@@ -24,8 +25,6 @@ export default clerkMiddleware(async (auth, req) => {
     }
   }
 })
-
-console.log()
 
 export const config = {
   matcher: [
